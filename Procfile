@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run ANM1_1.py
+web: sh setup.sh && streamlit run .streamlit/ANM1_1.py
