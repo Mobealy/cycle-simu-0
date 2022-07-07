@@ -1,5 +1,5 @@
 import numpy as np   # -*- coding: utf-8 -*-"""Created on Sun Jul  3 14:35:51 2022 @author: byw"""
-import pandas as pd  # command: streamlit run C:\temp\LSTNet\Master20220611\ANM1_1.py
+import pandas as pd  # command: streamlit run
 import time
 import psutil
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ def main1(j):
         i += 1
 
 
-DATPATH = "C:/temp/LSTNet/Master20220611/data/201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt" # 201909Win2_TCW2A1B1C1D1_E8_NO_TS.txt
+DATPATH = "201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt" # 201909Win2_TCW2A1B1C1D1_E8_NO_TS.txt
 i = 0
 j = 3
 X, y = [], []
