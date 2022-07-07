@@ -7,7 +7,7 @@ def main1(j):
     last_rows = rawdat[0, selected_gauge].reshape(1, -1)
     last_rows1 = rawdat[0, j].reshape(1, -1)
     while True:
-        new_rows = rawdat[i+1, selected_gauge].reshape(1, -1) # new_rows = last_rows[-1, :] + np.array(psutil.cpu_percent()).reshape(1, -1)
+        new_rows = rawdat[i+1, selected_gauge].reshape(1, -1)
         chart.add_rows(new_rows)
         last_rows = new_rows
         new_rows1 = rawdat[i+1, j].reshape(1, -1)
@@ -17,7 +17,7 @@ def main1(j):
         i += 1
 
 
-DATPATH = "201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt" # 201909Win2_TCW2A1B1C1D1_E8_NO_TS.txt
+DATPATH = "201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt"
 i = 0
 j = 3
 X, y = [], []
