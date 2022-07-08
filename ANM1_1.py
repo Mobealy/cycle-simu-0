@@ -13,7 +13,7 @@ def main1(j):
         new_rows1 = rawdat[i+1, j].reshape(1, -1)
         chart1.add_rows(new_rows1)
         last_rows1 = new_rows1
-        time.sleep(0.1)
+        time.sleep(0.01)
         i += 1
 
 
