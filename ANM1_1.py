@@ -17,7 +17,7 @@ def main1(j):
         i += 1
 
 
-DATPATH = "20191011_E8.txt" # "201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt"
+DATPATH = "data.txt" # "20191011_E8.txt", "201910Win2_TCW2A1B1C1D1_E8_NO_TS.txt"
 i = 0
 j = 3
 X, y = [], []
